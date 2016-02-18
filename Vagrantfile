@@ -3,15 +3,17 @@
 #
 
 Vagrant.configure(2) do |config|
+  #
   # Disable insecure key replacement
   #config.ssh.insert_key = false
-  # Use your id_rsa key from !/.ssh
+  # Use your id_rsa key from ~/.ssh
   config.ssh.private_key_path = [ '~/.vagrant.d/insecure_private_key', '~/.ssh/id_rsa' ]
   config.vm.box = "flannon/centos_6.7_min"
   config.vm.provider "virtualbox" do |vb|
     #vb.gui = true
     #vb.memory = "2048"
   end
+  #config.vm.network "private_network", ip: "192.168.50.4"
   config.vm.network "forwarded_port", guest:  3306, host: 3406
   config.vm.hostname = "mysql.local"
   config.vm.provision "shell", path: "bin/init-puppet-centos6.sh"
