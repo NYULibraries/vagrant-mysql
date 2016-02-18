@@ -1,0 +1,7 @@
+---
+my_message: 'Hello from the common.yaml file!'
+node_default_message: 'Applying node default'
+archivesspace_dev::install_dir: '/opt/archivesspace'
+archivesspace_dev::revision: 'v1.4.2'
+archivesspace_dev::source: 'https://github.com/NYULibraries/archivesspace.git'
+archivesspace_dev::user: 'vagrant'
