@@ -1,4 +1,4 @@
-### VAGRANT-MYSQL
+# vagrant-mysql
 Install a Virtualbox guest running mysql.
 
 #### Before you start
