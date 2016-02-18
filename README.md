@@ -1,5 +1,15 @@
 # vagrant-mysql
-This is a vagrant box running mysql.  To use it you'll need to clone the repository, change into the directory and run vagrant up and then ssh into the box.
+Install a Virtualbox guest running mysql.
+
+## Before you start
+
+The easiest way to get vagrant-mysql up and running is to have homebrew installed.  If you need to install homebrew you can find instructions [an example](http://brew.sh/ "Title) inline link
+
+ysql you'll need Virtualbox, vagrant and the vagrant-r10ksiest way to do this is if yo h plugin installed.  Assuming you have homebrew installed you can install Virtualbox, vagrnat and vagrant-r10k like this.
+
+    $
+
+To use it you'll need to clone the repository, change into the directory and run vagrant up and then ssh into the box.
 
     $ git clone https://github.com/NYULibraries/vagrant-mysql.git
     $ cd vagrant-mysql
