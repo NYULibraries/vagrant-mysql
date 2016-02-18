@@ -1,5 +1,5 @@
 # vagrant-mysql
-This is a basic vagrant box running mysql.  to use it you'll need to clone the repository, change into the directory and run vagrant up and then ssh into the box.
+This is a vagrant box running mysql.  To use it you'll need to clone the repository, change into the directory and run vagrant up and then ssh into the box.
 
     $ git clone https://github.com/NYULibraries/vagrant-mysql.git
     $ cd vagrant-mysql
